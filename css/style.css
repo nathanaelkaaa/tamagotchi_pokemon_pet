@@ -268,3 +268,9 @@ footer a {
     background-image: url('C:/Users/natha/Desktop/aptitude.gif');
     background-size: cover;
   }
+
+  .gameboy-logo{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
