@@ -65,11 +65,20 @@ html, body {
   font-weight: 700;
   font-size: 30px;
   display: block;
+  justify-content: center;
+  align-items: center;
   opacity: 0.9;
   height: 100%;
   width: 100%;
   color: rgba(0, 0, 0, 0.4);
 }
+.toggle .icon {
+    opacity: 0.7;
+    height: 60px;
+    width: 60px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
 .toggle input {
   opacity: 0;
   position: absolute;
@@ -143,14 +152,16 @@ footer a {
 
 .pet {
     box-shadow: inset 0 0 35px 5px rgba(0, 0, 0, 0.25), inset 0 5px 5px 2px rgba(255, 255, 255, 0.9), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-bottom-left-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
     background: #d73f3f;
     display: inline-flex;
     flex-flow: column;
     justify-content: center;
-    width: 40rem;
     align-items: center;
-    padding: 2rem;
+    padding: 5rem;
 }
 
 .pet > * {
@@ -176,6 +187,7 @@ footer a {
 .pet-image {
     position: relative;
     height: 250px;
+    max-width: 400px;
 }
 
 .pet-state-container {
@@ -196,6 +208,7 @@ footer a {
 
 .button-container.active {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     text-align: center;
@@ -271,6 +284,5 @@ footer a {
 
   .gameboy-logo{
     display: flex;
-    align-items: flex-start;
-    padding-left: 20px;
+    justify-content: center;
   }
