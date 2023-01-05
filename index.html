@@ -18,49 +18,56 @@
     </head>
 
     <body>
-        <header>
-        <h1>
-            This is your pet!
-        </h1>
-        <p>
-            Don't be a bad owner...
-        </p>
-        </header>
+        <img src="https://assets.stickpng.com/images/612ce4761b9679000402af1c.png" height="80px">
 
         <main>
         <div class="pet">
-            <section class="pet-image-container">
-            <!-- Replace pet image with your own pet image -->
-            <img class="pet-image" src="./assets/Missing-No.png">
-            <div class="pet-state-container">
-                <img class="pet-state" src="./assets/Emote_Question.png">
+            <div class="pet-screen">
+                <section class="pet-image-container">
+                <!-- Replace pet image with your own pet image -->
+                <img class="pet-image" src="https://assets.stickpng.com/images/612ce4761b9679000402af1c.png" height="100px">
+                <div class="pet-state-container">
+                    <img class="pet-state" src="./assets/Emote_Question.png">
+                </div>
+                <section class="actions">
+                    <div>Name: <strong><span class="name"></span></strong> <em><span id="status"></span></em></div>
+                    <div>Weight: <strong><span class="weight"></span> lbs.</strong></div>
+                    <div>Happiness: <strong><span class="happiness"></span> satisfaction</strong></div>
+                    
+                    </section>
+                </section>
             </div>
-            </section>
-
-            <section class="actions">
-            <div>Name: <strong><span class="name"></span></strong> <em><span id="status"></span></em></div>
-            <div>Weight: <strong><span class="weight"></span> lbs.</strong></div>
-            <div>Happiness: <strong><span class="happiness"></span> satisfaction</strong></div>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gameboy_logo.svg/2560px-Gameboy_logo.svg.png"  height="10px" width="40px">
+           
             <div id="actions" class="button-container">
-                <button class="treat-button">
-                Treat
-                </button>
-                <button class="play-button">
-                Play
-                </button>
-                <button class="exercise-button">
-                Exercise
-                </button>
-                <button class="abandon-button">
-                Abandon
-                </button>
+                <div class="toggle">
+                    <input type="button"  class="treat-button">
+                    <span class="button"></span>
+                    <span class="label" >Treat</span>
+                </div>
+                <div class="toggle">
+                    <input type="button"  class="play-button">
+                    <span class="button"></span>
+                    <span class="label" >Play</span>
+                </div>
+                <div class="toggle">
+                    <input type="button"  class="exercise-button">
+                    <span class="button"></span>
+                    <span class="label" >Sport</span>
+                </div>
+                <div class="toggle">
+                    <input type="button"  class="abandon-button">
+                    <span class="button"></span>
+                    <span class="label" >Kill</span>
+                </div>
+              
             </div>
             <div id="adopt" class="button-container active">
                 <button class="adopt-button">
                 Adopt
                 </button>
             </div>
-            </section>
         </div>
         </main>
 
